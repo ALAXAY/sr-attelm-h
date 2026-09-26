@@ -1,0 +1,33 @@
+{
+  "title": "SR-AttELM-H: technique for adaptive reconstruction of asynchronously delivered sensor data",
+  "upload_type": "software",
+  "description": "Code of the technique for adaptive reconstruction of asynchronously delivered sensor data using availability-aware spatiotemporal attention and a sector-structured recurrent extreme learning machine: evaluation protocol with generation and arrival times, re-implementation of the technique, adapter of the official AGG core, packet-level network delay model and a Google Colab notebook that reproduces Section 7.8 of the article.",
+  "creators": [
+    {
+      "name": "Fesenko, Oleksii",
+      "affiliation": "Kruty Heroes Military Institute of Telecommunications and Information Technology",
+      "orcid": "0000-0002-2114-5327"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "asynchronous data fusion",
+    "age of information",
+    "spatiotemporal attention",
+    "extreme learning machine",
+    "recursive least squares",
+    "ad hoc networks"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.24432/C5RK5G",
+      "relation": "requires",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/ChristopherLey/AsyncGraphGenerator",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}

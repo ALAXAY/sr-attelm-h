@@ -1,0 +1,154 @@
+{
+ "fold": "A",
+ "official_repo_commit": "83ac07dad753536caeb2c38846822a7391a32569",
+ "official_model_file": "AGG/model.py",
+ "official_config_file": "pm25_config.yaml",
+ "official_model_params": {
+  "feature_dim": 16,
+  "num_heads": 8,
+  "time_embedding_dim": 16,
+  "type_embedding_dim": 16,
+  "spatial_embedding_dim": 16,
+  "categorical_embedding_dim": 16,
+  "num_layers": 2,
+  "attention_drop": 0.5,
+  "dropout": 0.2
+ },
+ "adapter": {
+  "channels": 4,
+  "stations": 12,
+  "block_size_bins": 2,
+  "bin_hours": 6,
+  "time_scale_hours": 12,
+  "category": "constant zero because wind-direction category is not part of frozen 4-channel protocol",
+  "training_delay_levels": [
+   1,
+   2,
+   4
+  ],
+  "common_test_support": true,
+  "include_partial_target_input": true,
+  "train_samples": 7000,
+  "val_samples": 1800
+ },
+ "training": {
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "linear_lr_end_factor": 0.1,
+  "linear_lr_total_iters": 100,
+  "gradient_clip": 1.0,
+  "best_val_rmse": 0.34080504676225426,
+  "best_epoch": 16,
+  "history": [
+   {
+    "epoch": 0,
+    "train_mse": 0.5080715698174068,
+    "val_rmse": 0.5512016987033291,
+    "lr": 0.0001
+   },
+   {
+    "epoch": 1,
+    "train_mse": 0.3236808864900044,
+    "val_rmse": 0.47253376111848283,
+    "lr": 9.910000000000001e-05
+   },
+   {
+    "epoch": 2,
+    "train_mse": 0.2547626722369875,
+    "val_rmse": 0.4321273292182264,
+    "lr": 9.820000000000002e-05
+   },
+   {
+    "epoch": 3,
+    "train_mse": 0.2162992592368807,
+    "val_rmse": 0.41879983893232176,
+    "lr": 9.730000000000002e-05
+   },
+   {
+    "epoch": 4,
+    "train_mse": 0.19473175696815764,
+    "val_rmse": 0.4254723295958654,
+    "lr": 9.640000000000003e-05
+   },
+   {
+    "epoch": 5,
+    "train_mse": 0.1805314587524959,
+    "val_rmse": 0.41309414598161726,
+    "lr": 9.550000000000003e-05
+   },
+   {
+    "epoch": 6,
+    "train_mse": 0.17312696926082882,
+    "val_rmse": 0.38652793552256715,
+    "lr": 9.460000000000002e-05
+   },
+   {
+    "epoch": 7,
+    "train_mse": 0.16033297543866293,
+    "val_rmse": 0.38392255183415686,
+    "lr": 9.370000000000003e-05
+   },
+   {
+    "epoch": 8,
+    "train_mse": 0.15394129183462688,
+    "val_rmse": 0.384972523132634,
+    "lr": 9.280000000000003e-05
+   },
+   {
+    "epoch": 9,
+    "train_mse": 0.14665210851601193,
+    "val_rmse": 0.3797263936171243,
+    "lr": 9.190000000000004e-05
+   },
+   {
+    "epoch": 10,
+    "train_mse": 0.14035006260871888,
+    "val_rmse": 0.3599084455356846,
+    "lr": 9.100000000000004e-05
+   },
+   {
+    "epoch": 11,
+    "train_mse": 0.1376984575986862,
+    "val_rmse": 0.36650997664718954,
+    "lr": 9.010000000000005e-05
+   },
+   {
+    "epoch": 12,
+    "train_mse": 0.13302429497241974,
+    "val_rmse": 0.36600244517137825,
+    "lr": 8.920000000000005e-05
+   },
+   {
+    "epoch": 13,
+    "train_mse": 0.13245423177310398,
+    "val_rmse": 0.3520987727374631,
+    "lr": 8.830000000000006e-05
+   },
+   {
+    "epoch": 14,
+    "train_mse": 0.12818269253628595,
+    "val_rmse": 0.35248525052066376,
+    "lr": 8.740000000000006e-05
+   },
+   {
+    "epoch": 15,
+    "train_mse": 0.1257316655601774,
+    "val_rmse": 0.3733493245054918,
+    "lr": 8.650000000000006e-05
+   },
+   {
+    "epoch": 16,
+    "train_mse": 0.12228862223454884,
+    "val_rmse": 0.34080504676225426,
+    "lr": 8.560000000000005e-05
+   },
+   {
+    "epoch": 17,
+    "train_mse": 0.11993887652669634,
+    "val_rmse": 0.35692033795560074,
+    "lr": 8.470000000000005e-05
+   }
+  ]
+ },
+ "note": "Official AGG model core and official PM25 architectural hyperparameters; only the data loader/training harness is replaced to enforce the identical frozen two-clock protocol."
+}

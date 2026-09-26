@@ -1,0 +1,13 @@
+fold,model,regime,mean_h,median_h,p90_h,p99_h,share_gt24h,lag1_autocorr,cross_station_corr,out_of_order_share,mean_aoi_h,pending_last_bin,uav_share
+A,geometric,"stationary, training part",6.014,4.0,14.667,30.0,0.023,0.001,-0.0,0.395,3.249,0.6,
+A,network,"nominal, training part",6.16,1.8,17.033,54.833,0.06,0.886,0.073,0.017,15.968,0.394,0.115
+A,network,"level 2, training part",12.775,3.399,36.0,130.384,0.146,0.93,0.067,0.012,52.225,0.476,0.145
+A,network,"level 4, training part",23.675,4.766,68.233,266.62,0.228,0.955,0.06,0.009,216.088,0.525,0.159
+A,geometric,"shifted, test interval",23.943,16.0,55.667,114.697,0.355,-0.003,-0.002,0.469,6.253,0.867,
+A,network,"degraded, test interval",24.054,6.731,77.127,216.609,0.244,0.927,0.316,0.018,19.48,0.595,0.152
+B,geometric,"stationary, training part",6.009,4.0,14.667,30.0,0.023,0.001,-0.0,0.394,3.248,0.599,
+B,network,"nominal, training part",6.465,1.867,17.733,59.467,0.066,0.887,0.072,0.018,12.523,0.397,0.113
+B,network,"level 2, training part",13.214,3.597,38.667,131.133,0.153,0.931,0.068,0.013,37.884,0.481,0.144
+B,network,"level 4, training part",25.43,4.799,74.033,301.144,0.23,0.955,0.064,0.009,148.058,0.526,0.157
+B,geometric,"shifted, test interval",23.963,16.0,56.333,115.667,0.355,-0.002,0.001,0.469,6.177,0.865,
+B,network,"degraded, test interval",24.65,7.765,74.167,208.339,0.263,0.929,0.302,0.017,19.989,0.622,0.162

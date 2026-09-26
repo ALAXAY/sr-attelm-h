@@ -1,0 +1,174 @@
+{
+ "params": {
+  "level1": {
+   "R_km": 30.0,
+   "up_mean_h": 8.0,
+   "down_ref_h": 4.0,
+   "down_scale": 1.0,
+   "capacity_bph": 12.0,
+   "capacity_scale": 1.0,
+   "bg_mean": 0.5,
+   "bg_amp": 0.3,
+   "uav_period_h": 12.0,
+   "uav_offset_h": 2.0,
+   "uav_cancel": 0.15,
+   "uav_speed_kmh": 60.0,
+   "uav_service_h": 0.1,
+   "jam_rate_per_h": 0.0,
+   "jam_mean_h": 12.0
+  },
+  "level2": {
+   "R_km": 30.0,
+   "up_mean_h": 16.0,
+   "down_ref_h": 4.0,
+   "down_scale": 2.25,
+   "capacity_bph": 12.0,
+   "capacity_scale": 1.0,
+   "bg_mean": 0.5,
+   "bg_amp": 0.3,
+   "uav_period_h": 12.0,
+   "uav_offset_h": 2.0,
+   "uav_cancel": 0.15,
+   "uav_speed_kmh": 60.0,
+   "uav_service_h": 0.1,
+   "jam_rate_per_h": 0.0,
+   "jam_mean_h": 12.0
+  },
+  "level4": {
+   "R_km": 30.0,
+   "up_mean_h": 32.0,
+   "down_ref_h": 4.0,
+   "down_scale": 4.7,
+   "capacity_bph": 12.0,
+   "capacity_scale": 1.0,
+   "bg_mean": 0.5,
+   "bg_amp": 0.3,
+   "uav_period_h": 12.0,
+   "uav_offset_h": 2.0,
+   "uav_cancel": 0.15,
+   "uav_speed_kmh": 60.0,
+   "uav_service_h": 0.1,
+   "jam_rate_per_h": 0.0,
+   "jam_mean_h": 12.0
+  },
+  "degraded": {
+   "R_km": 30.0,
+   "up_mean_h": 8.0,
+   "down_ref_h": 4.0,
+   "down_scale": 1.0,
+   "capacity_bph": 12.0,
+   "capacity_scale": 1.0,
+   "bg_mean": 0.5,
+   "bg_amp": 0.3,
+   "uav_period_h": 12.0,
+   "uav_offset_h": 2.0,
+   "uav_cancel": 0.15,
+   "uav_speed_kmh": 60.0,
+   "uav_service_h": 0.1,
+   "jam_rate_per_h": 0.024390243902439025,
+   "jam_mean_h": 12.0
+  }
+ },
+ "seeds": [
+  11,
+  23,
+  37
+ ],
+ "hours": 35064,
+ "first": "2013-03-01 00:00:00",
+ "validation_end": {
+  "A": "2015-07-01",
+  "B": "2016-07-01"
+ },
+ "stations": [
+  "Aotizhongxin",
+  "Changping",
+  "Dingling",
+  "Dongsi",
+  "Guanyuan",
+  "Gucheng",
+  "Huairou",
+  "Nongzhanguan",
+  "Shunyi",
+  "Tiantan",
+  "Wanliu",
+  "Wanshouxigong"
+ ],
+ "runs": {
+  "level1_11": {
+   "seconds": 9.0,
+   "undelivered": 0,
+   "mean_pollutant_h": 6.741199662538163
+  },
+  "level2_11": {
+   "seconds": 8.7,
+   "undelivered": 0,
+   "mean_pollutant_h": 14.47673671566453
+  },
+  "level4_11": {
+   "seconds": 8.5,
+   "undelivered": 0,
+   "mean_pollutant_h": 27.29044896348234
+  },
+  "shifted_A_11": {
+   "seconds": 9.5,
+   "undelivered": 0,
+   "mean_pollutant_h": 14.116973695171154
+  },
+  "shifted_B_11": {
+   "seconds": 10.4,
+   "undelivered": 0,
+   "mean_pollutant_h": 8.940468224758925
+  },
+  "level1_23": {
+   "seconds": 10.4,
+   "undelivered": 0,
+   "mean_pollutant_h": 6.566228061459946
+  },
+  "level2_23": {
+   "seconds": 9.6,
+   "undelivered": 0,
+   "mean_pollutant_h": 15.43791658396036
+  },
+  "level4_23": {
+   "seconds": 9.1,
+   "undelivered": 0,
+   "mean_pollutant_h": 26.967013396952012
+  },
+  "shifted_A_23": {
+   "seconds": 10.0,
+   "undelivered": 0,
+   "mean_pollutant_h": 15.567177546996893
+  },
+  "shifted_B_23": {
+   "seconds": 10.3,
+   "undelivered": 0,
+   "mean_pollutant_h": 9.356935004562867
+  },
+  "level1_37": {
+   "seconds": 9.3,
+   "undelivered": 0,
+   "mean_pollutant_h": 6.0117602702653095
+  },
+  "level2_37": {
+   "seconds": 9.4,
+   "undelivered": 0,
+   "mean_pollutant_h": 12.555279030318902
+  },
+  "level4_37": {
+   "seconds": 9.1,
+   "undelivered": 0,
+   "mean_pollutant_h": 23.355489667085422
+  },
+  "shifted_A_37": {
+   "seconds": 10.7,
+   "undelivered": 0,
+   "mean_pollutant_h": 16.30907634049836
+  },
+  "shifted_B_37": {
+   "seconds": 10.1,
+   "undelivered": 0,
+   "mean_pollutant_h": 10.011360790142446
+  }
+ }
+}

@@ -1,0 +1,9 @@
+SR-AttELM-H: technique for adaptive reconstruction of asynchronously delivered sensor data
+Copyright 2026 Oleksii Fesenko, Kruty Heroes Military Institute of Telecommunications and Information Technology, Kyiv, Ukraine
+
+The code of this repository is licensed under the Apache License, Version 2.0 (LICENSE), with one exception.
+
+The folder srattelm/agg/ is licensed under the GNU General Public License, version 3 (srattelm/agg/LICENSE).
+The file srattelm/agg/official_agg_same_protocol.py includes the model classes of the Asynchronous Graph
+Generator transcribed from https://github.com/ChristopherLey/AsyncGraphGenerator (commit
+83ac07dad753536caeb2c38846822a7391a32569), which is distributed under GPL-3.0.

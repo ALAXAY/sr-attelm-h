@@ -1,0 +1,43 @@
+a,b,wins,mean_diff,mean_rel_reduction_pct
+LOCF,Official AGG core,0,0.2854249846672358,-57.761837922987205
+LOCF,Proposed technique,0,0.3977213711525902,-103.38405257194346
+LOCF,"Proposed technique, trained on geometric delays",0,0.3680848239658154,-88.89809712148599
+LOCF,Sector recurrent ELM without attention,0,0.09538902242352071,-13.57648465569172
+LOCF,Technique without availability parameters,0,0.3970064379354998,-103.07112502492404
+LOCF,"Technique without availability parameters, trained on geometric delays",0,0.37270416867686906,-90.88638776520993
+Official AGG core,LOCF,6,-0.2854249846672358,35.87904577140171
+Official AGG core,Proposed technique,0,0.11229638648535438,-29.665741816131654
+Official AGG core,"Proposed technique, trained on geometric delays",0,0.08265983929857955,-20.809490136384987
+Official AGG core,Sector recurrent ELM without attention,6,-0.19003596224371513,27.519420207151317
+Official AGG core,Technique without availability parameters,0,0.11158145326826392,-29.42022684206239
+Official AGG core,"Technique without availability parameters, trained on geometric delays",0,0.08727918400963323,-21.949482127895546
+Proposed technique,LOCF,6,-0.3977213711525902,50.6027388696868
+Proposed technique,Official AGG core,6,-0.11229638648535438,22.5510478415162
+Proposed technique,"Proposed technique, trained on geometric delays",6,-0.02963654718677484,6.949231412000333
+Proposed technique,Sector recurrent ELM without attention,6,-0.30233234872906956,44.03904820049381
+Proposed technique,Technique without availability parameters,4,-0.0007149332170904669,0.1798662373812691
+Proposed technique,"Technique without availability parameters, trained on geometric delays",6,-0.025017202475721145,6.004699848035547
+"Proposed technique, trained on geometric delays",LOCF,6,-0.3680848239658154,46.94745507615505
+"Proposed technique, trained on geometric delays",Official AGG core,6,-0.08265983929857955,16.555015439559924
+"Proposed technique, trained on geometric delays",Proposed technique,0,0.02963654718677484,-7.59011350016691
+"Proposed technique, trained on geometric delays",Sector recurrent ELM without attention,6,-0.2726958015422947,39.809059471304636
+"Proposed technique, trained on geometric delays",Technique without availability parameters,0,0.028921613969684373,-7.4025184626559755
+"Proposed technique, trained on geometric delays","Technique without availability parameters, trained on geometric delays",1,0.004619344711053695,-1.0484304419676218
+Sector recurrent ELM without attention,LOCF,6,-0.09538902242352071,11.734147237455007
+Sector recurrent ELM without attention,Official AGG core,0,0.19003596224371513,-38.52623122436387
+Sector recurrent ELM without attention,Proposed technique,0,0.30233234872906956,-79.05201300270072
+Sector recurrent ELM without attention,"Proposed technique, trained on geometric delays",0,0.2726958015422947,-66.56918177372845
+Sector recurrent ELM without attention,Technique without availability parameters,0,0.30161741551197907,-78.75267133250503
+Sector recurrent ELM without attention,"Technique without availability parameters, trained on geometric delays",0,0.27731514625334835,-68.23533474589595
+Technique without availability parameters,LOCF,6,-0.3970064379354998,50.500298312778234
+Technique without availability parameters,Official AGG core,6,-0.11158145326826392,22.417082854464372
+Technique without availability parameters,Proposed technique,2,0.0007149332170904669,-0.183015231225316
+Technique without availability parameters,"Proposed technique, trained on geometric delays",6,-0.028921613969684373,6.77437667464665
+Technique without availability parameters,Sector recurrent ELM without attention,6,-0.30161741551197907,43.92978771226153
+Technique without availability parameters,"Technique without availability parameters, trained on geometric delays",6,-0.024302269258630677,5.829210962215451
+"Technique without availability parameters, trained on geometric delays",LOCF,6,-0.37270416867686906,47.488875173165
+"Technique without availability parameters, trained on geometric delays",Official AGG core,6,-0.08727918400963323,17.498304345266106
+"Technique without availability parameters, trained on geometric delays",Proposed technique,0,0.025017202475721145,-6.453307313161312
+"Technique without availability parameters, trained on geometric delays","Proposed technique, trained on geometric delays",5,-0.004619344711053695,1.0227666124561365
+"Technique without availability parameters, trained on geometric delays",Sector recurrent ELM without attention,6,-0.27731514625334835,40.4523580856406
+"Technique without availability parameters, trained on geometric delays",Technique without availability parameters,0,0.024302269258630677,-6.2660642357981295

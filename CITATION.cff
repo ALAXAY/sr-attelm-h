@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this repository."
+title: "SR-AttELM-H: technique for adaptive reconstruction of asynchronously delivered sensor data"
+type: software
+authors:
+  - family-names: Fesenko
+    given-names: Oleksii
+    orcid: "https://orcid.org/0000-0002-2114-5327"
+    affiliation: "Kruty Heroes Military Institute of Telecommunications and Information Technology"
+    email: "oleksij.fesenko@viti.edu.ua"
+repository-code: "https://github.com/ALAXAY/sr-attelm-h"
+url: "https://github.com/ALAXAY/sr-attelm-h"
+version: "1.0.0"
+date-released: "2026-09-26"
+license:
+  - Apache-2.0
+  - GPL-3.0-only
+keywords:
+  - asynchronous data fusion
+  - age of information
+  - spatiotemporal attention
+  - extreme learning machine
+  - recursive least squares
+  - ad hoc networks
