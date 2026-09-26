@@ -1,6 +1,6 @@
 # SR-AttELM-H: technique for adaptive reconstruction of asynchronously delivered sensor data
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ALAXAY/sr-attelm-h/blob/main/notebooks/SR_AttELM_H_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ALAXAY/sr-attelm-h/blob/main/notebooks/SR_AttELM_H_Colab.ipynb) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22975925.svg)](https://doi.org/10.5281/zenodo.22975925)
 
 Code for the article "A technique for adaptive reconstruction of asynchronously delivered sensor data using
 availability-aware spatiotemporal attention and a sector-structured recurrent extreme learning machine"
@@ -120,4 +120,5 @@ terms of the UCI Machine Learning Repository (https://doi.org/10.24432/C5RK5G).
 
 ## Citation
 
-See `CITATION.cff`.
+Version 1.0.0 is archived in Zenodo: https://doi.org/10.5281/zenodo.22975926 (all versions: https://doi.org/10.5281/zenodo.22975925).
+Citation metadata are given in `CITATION.cff`.

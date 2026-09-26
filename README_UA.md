@@ -1,6 +1,6 @@
 # SR-AttELM-H: методика адаптивного відновлення багатовимірних асинхронних даних
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ALAXAY/sr-attelm-h/blob/main/notebooks/SR_AttELM_H_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ALAXAY/sr-attelm-h/blob/main/notebooks/SR_AttELM_H_Colab.ipynb) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22975925.svg)](https://doi.org/10.5281/zenodo.22975925)
 
 Код до статті «A technique for adaptive reconstruction of asynchronously delivered sensor data using
 availability-aware spatiotemporal attention and a sector-structured recurrent extreme learning machine»
@@ -128,4 +128,5 @@ GNU GPL 3.0, тому зазначена папка поширюється на 
 
 ## Цитування
 
+Версію 1.0.0 заархівовано в Zenodo: https://doi.org/10.5281/zenodo.22975926 (усі версії: https://doi.org/10.5281/zenodo.22975925).
 Дані для цитування наведено у файлі `CITATION.cff`.

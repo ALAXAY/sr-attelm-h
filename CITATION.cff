@@ -10,6 +10,14 @@ authors:
     email: "oleksij.fesenko@viti.edu.ua"
 repository-code: "https://github.com/ALAXAY/sr-attelm-h"
 url: "https://github.com/ALAXAY/sr-attelm-h"
+doi: "10.5281/zenodo.22975925"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22975925"
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.22975926"
+    description: "Zenodo DOI of version 1.0.0"
 version: "1.0.0"
 date-released: "2026-09-26"
 license:
