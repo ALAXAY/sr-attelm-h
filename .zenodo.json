@@ -9,7 +9,7 @@
       "orcid": "0000-0002-2114-5327"
     }
   ],
-  "license": "Apache-2.0",
+  "license": "apache-2.0",
   "keywords": [
     "asynchronous data fusion",
     "age of information",
@@ -29,5 +29,7 @@
       "relation": "references",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "1.0.0",
+  "access_right": "open"
 }
